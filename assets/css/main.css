@@ -1,0 +1,5 @@
+@import url('./global/global.scss');
+@import url('./global/reset.scss');
+@import url('./global/variable.scss');
+
+@import url('./components/header.scss');

@@ -1,0 +1,36 @@
+.header-wrapper {
+  .menu-wrapper {
+    ul {
+      li {
+        list-style: none;
+        transition: all .5s;
+        cursor: pointer;
+        position: relative;
+        &:nth-of-type(5) {
+          margin-left: auto;
+        }
+        &:hover {
+          color: #dcf836;
+          .menu-wrapper__child {
+            display: block;
+          }
+        }
+      }
+    }
+    &__child {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      display: none;
+      background: #0c0c0c;
+      padding: 10px 20px;
+      p {
+        color: #abb7c4;
+        transition: all .5s;
+        &:hover {
+          color: #dcf836;
+        }
+      }
+    }
+  }
+}
