@@ -1,9 +1,11 @@
+$blue: blue;
 .header-wrapper {
   .menu-wrapper {
     ul {
       li {
+        color: $red;
         list-style: none;
-        transition: all .5s;
+        transition: all 0.5s;
         cursor: pointer;
         position: relative;
         &:nth-of-type(5) {
@@ -26,7 +28,7 @@
       padding: 10px 20px;
       p {
         color: #abb7c4;
-        transition: all .5s;
+        transition: all 0.5s;
         &:hover {
           color: #dcf836;
         }
